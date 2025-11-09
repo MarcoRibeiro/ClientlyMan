@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.AppHost", "src/ClientlyMan.AppHost/ClientlyMan.AppHost.csproj", "{8F5C2BC6-4F20-4E3C-9F9A-AB6F06D5AD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.Api", "src/ClientlyMan.Api/ClientlyMan.Api.csproj", "{5D21CCB5-8C01-4D54-A055-812A1C1D38F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.Application", "src/ClientlyMan.Application/ClientlyMan.Application.csproj", "{479C5232-4CD0-4E20-AE8C-57A938668B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.Domain", "src/ClientlyMan.Domain/ClientlyMan.Domain.csproj", "{8A2A81B6-2228-4B51-BBC3-9E95BC687DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.Infrastructure", "src/ClientlyMan.Infrastructure/ClientlyMan.Infrastructure.csproj", "{1E6F4C9E-1534-4E0A-B2CF-7F1E04BBE7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.Tests.Unit", "tests/ClientlyMan.Tests.Unit/ClientlyMan.Tests.Unit.csproj", "{B1C3F1E3-8D27-43D2-86A8-7EA8E6490A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientlyMan.Tests.Integration", "tests/ClientlyMan.Tests.Integration/ClientlyMan.Tests.Integration.csproj", "{AA9E8D93-068F-4B9F-90CF-1D2C9E55B0B4}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{8F5C2BC6-4F20-4E3C-9F9A-AB6F06D5AD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{8F5C2BC6-4F20-4E3C-9F9A-AB6F06D5AD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{8F5C2BC6-4F20-4E3C-9F9A-AB6F06D5AD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{8F5C2BC6-4F20-4E3C-9F9A-AB6F06D5AD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+{5D21CCB5-8C01-4D54-A055-812A1C1D38F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{5D21CCB5-8C01-4D54-A055-812A1C1D38F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{5D21CCB5-8C01-4D54-A055-812A1C1D38F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{5D21CCB5-8C01-4D54-A055-812A1C1D38F3}.Release|Any CPU.Build.0 = Release|Any CPU
+{479C5232-4CD0-4E20-AE8C-57A938668B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{479C5232-4CD0-4E20-AE8C-57A938668B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{479C5232-4CD0-4E20-AE8C-57A938668B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{479C5232-4CD0-4E20-AE8C-57A938668B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+{8A2A81B6-2228-4B51-BBC3-9E95BC687DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{8A2A81B6-2228-4B51-BBC3-9E95BC687DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{8A2A81B6-2228-4B51-BBC3-9E95BC687DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{8A2A81B6-2228-4B51-BBC3-9E95BC687DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+{1E6F4C9E-1534-4E0A-B2CF-7F1E04BBE7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{1E6F4C9E-1534-4E0A-B2CF-7F1E04BBE7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{1E6F4C9E-1534-4E0A-B2CF-7F1E04BBE7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{1E6F4C9E-1534-4E0A-B2CF-7F1E04BBE7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+{B1C3F1E3-8D27-43D2-86A8-7EA8E6490A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{B1C3F1E3-8D27-43D2-86A8-7EA8E6490A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{B1C3F1E3-8D27-43D2-86A8-7EA8E6490A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{B1C3F1E3-8D27-43D2-86A8-7EA8E6490A40}.Release|Any CPU.Build.0 = Release|Any CPU
+{AA9E8D93-068F-4B9F-90CF-1D2C9E55B0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{AA9E8D93-068F-4B9F-90CF-1D2C9E55B0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{AA9E8D93-068F-4B9F-90CF-1D2C9E55B0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{AA9E8D93-068F-4B9F-90CF-1D2C9E55B0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+GlobalSection(SolutionProperties) = preSolution
+HideSolutionNode = FALSE
+EndGlobalSection
+EndGlobal
